@@ -1,0 +1,21 @@
+.menu-item {
+    color: #1f1c2e;
+    margin-bottom: 16px;
+    transition: 0.2s;
+    border-radius: 50%;
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-item:hover {
+    background-color: #c3cff4;
+    color: #fff;
+}
+.menu-item.active {
+    background-color: #1f1c2e;
+    color: #fff;
+}

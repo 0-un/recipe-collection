@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital@1&display=swap');
+.home-container{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.home-header{
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    background: #fff;
+    height: auto;
+    font-family: 'Libre Bodoni', serif;
+    font-size: 1.2em;
+    letter-spacing: 1.3px;
+    font-style: italic;
+    color: #4A4A4A;
+}
+.home-content{
+    margin: 0 auto;
+    max-width: 1300px;
+    overflow-y:auto; 
+    overflow-x:hidden; 
+    width:100%; 
+    height: calc(100% - 150px);
+    font-size: 1.3em;
+}
+
+
+.home-content p{
+    line-height: 1.7em;
+}
+.home-content p:nth-of-type(2){
+    padding-bottom: 50px;
+
+}
+
+.home-sub-title{
+    font-style: italic;
+    font-family: 'Libre Bodoni', serif;
+    letter-spacing: 1.3px;
+    line-height: 1.3em!important;
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: #4A4A4A;
+}
+
+
+.main-img{
+    max-width: 800px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.home-content::-webkit-scrollbar {
+    width: 10px;
+}
+.home-content::-webkit-scrollbar-thumb {
+    background-color: #c3cff4;
+    height: 10%;
+    border-radius: 15px;
+    background-clip: padding-box;
+}
+.home-content::-webkit-scrollbar-track {
+    background-color: #f3f6fd;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px white;
+}
+
+
+@media screen and (max-width: 768px) {
+    .home-header{
+        font-size: 1em;
+    }
+    .home-content{
+        font-size: 1em;
+    }
+    .main-img{
+        height: 400px;
+    }
+    
+
+}
+@media screen and (max-width: 535px) {
+    .home-header{
+        font-size: 0.8em;
+    }
+    .home-content{
+        font-size: 0.9em;
+    }
+    .main-img{
+        height: 300px;
+    }
+}
+@media screen and (max-width: 410px) {
+    .main-img{
+        height: 200px;
+    }
+
+
+}
