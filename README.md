@@ -1,4 +1,8 @@
-`Personal project`
+
+`Personal project` 
+
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2F0-un%2Frecipe-collection.git&count_bg=%235BEB72&title_bg=%237A82A2&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+
 ## API 활용 'Recipe Collection'  React 앱 개발
 
 > [구현페이지](https://0-un.github.io/recipe-collection)   
@@ -37,10 +41,6 @@
 - 강의 수료 전에 어떻게든 만들어보고자 하여 급하게 시작된 프로젝트였는데, 리액트의 기본 문법을 조금 더 다진 다음에 프로젝트를 시작했으면 수월했을 것 같다는 아쉬움이 남아 있다. 
 - `React`를 Github에 올리는 과정에서 오류가 나서 힘들었다. 기존의 `HTML`을 올리는 방식과 빌드하는 방식이 달라서 많이 헤맸는데 다음에는 오류없이 유연하게 프로젝트를 진행하고 싶다.
 - 이번에는 `React`를 배운지 얼마 안되어 프로젝트 진행 과정 중 주위 분들께 많은 질문을 하며 프로젝트를 진행해 나가 아쉬웠고, 스스로 더욱 노력해야겠다고 결심했다.
-
-
-
-
 
 
 
